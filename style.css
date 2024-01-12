@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+
+/* header heading section */
+
+#heading {
+    margin-top: 100px;
+    font-family: Verdana, sans-serif;
+    font-style: normal;
+}
+
+
+/* header navbar */
+
+#nav {
+    background-color: black;
+}
+
+.app_name {
+    font-size: 2rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+
+/* app's logo */
+
+#logo {
+    height: 50px;
+    width: 50px;
+    margin: 0 20px 0 10px;
+}
+
+
+/* header search bar section */
+
+#search-bar {
+    max-width: 600px;
+}
+
+#search-bar input {
+    height: 50px;
+    border-radius: 20px;
+}
+
+
+/* meal card */
+
+#card {
+    /* background-image: linear-gradient(119deg, #2b9b14bd, #85a323e3); */
+    width: 240px;
+    background-color: yellow;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    box-shadow: 8px 8px 8px rgb(0, 0, 0);
+    margin: 9px;
+}
+
+#card h5 {
+    color: black;
+    padding: 10px;
+    font-family: cursive;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+#card img {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#card-title {
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: monospace;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+/* meal details container */
+
+#meal-details {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: yellow;
+    box-shadow: 8px 8px 8px rgb(0, 0, 0);
+}
+
+#meal-header {
+    width: 70%;
+    margin: auto;
+}
+
+#meal-thumbail img {
+    height: 200px;
+    width: 300px;
+    border-radius: 10%;
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+#meal-instruction {
+    margin: auto;
+    text-align: center;
+}
+
+
+/* favourites offcanvus */
+
+#favourites-body {
+    background-color: #ffffff;
+}
+
+#fav {
+    margin: 0 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
